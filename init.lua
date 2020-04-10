@@ -63,7 +63,7 @@ iblocks.disable = function(pos)
 	return false
 end
 minetest.register_node("iblocks:textblock", {
-	desc = "Textblock",
+	description = "Textblock",
 	tiles = {"iblocks_textblock.png"},
 	after_place_node = function(pos, player)
 		local meta = minetest.get_meta(pos)
